@@ -1,0 +1,30 @@
+{
+  "name": "offset",
+  "version": "0.0.1",
+  "description": "Calculate your carbon footprint based on bank transaction data",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node index.js",
+    "client": "cd client && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geografer/offset.git"
+  },
+  "author": "Andrew Mather",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geografer/offset/issues"
+  },
+  "homepage": "https://github.com/geografer/offset#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "plaid": "^2.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
