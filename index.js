@@ -13,6 +13,9 @@ var APP_PORT = 8002;
 
 var app = express();
 
+app.use(express.static('client/build'));
+
+
 var server = app.listen(APP_PORT, function() {
   console.log('Offset server listening on ' + APP_PORT);
 });
