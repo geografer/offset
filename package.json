@@ -4,9 +4,7 @@
   "description": "Calculate your carbon footprint based on bank transaction data",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "cd client && npm install && npm run build",
-    "startDev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node index.js",
     "client": "cd client && npm install --only-dev && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
