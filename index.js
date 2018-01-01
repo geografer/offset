@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var plaid = require('plaid');
 
-var APP_PORT = 8002;
+var APP_PORT = process.env.PORT || 8000;
 
 /*var client = new plaid.Client(
   PLAID_CLIENT_ID,
