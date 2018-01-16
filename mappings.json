@@ -1,0 +1,514 @@
+[
+  {
+     "22001000": { "Aland_Transaction_Type":"Airlines","Aland_CO2":1121.52 }
+  },
+  {
+     "17001010": { "Aland_Transaction_Type":"Amusement parks, carnivals, circus","Aland_CO2":103.14 }
+  },
+  {
+     "17001013": { "Aland_Transaction_Type":"Amusement parks, carnivals, circus","Aland_CO2":103.14 }
+  },
+  {
+     "17001018": { "Aland_Transaction_Type":"Amusement parks, carnivals, circus","Aland_CO2":103.14 }
+  },
+  {
+     "22013000": { "Aland_Transaction_Type":"Automobile parking lots and garage","Aland_CO2":195.71 }
+  },
+  {
+     "19005006": { "Aland_Transaction_Type":"Automotive parts accessories store","Aland_CO2":84.18 }
+  },
+  {
+     "18006000": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006001": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006002": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006003": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006004": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006005": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006006": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006007": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006008": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "18006009": { "Aland_Transaction_Type":"Automotive service shops","Aland_CO2":42.41 }
+  },
+  {
+     "13005036": { "Aland_Transaction_Type":"Bakeries","Aland_CO2":63.34 }
+  },
+  {
+     "13005053": { "Aland_Transaction_Type":"Bakeries","Aland_CO2":63.34 }
+  },
+  {
+     "13005054": { "Aland_Transaction_Type":"Bakeries","Aland_CO2":63.34 }
+  },
+  {
+     "13001000": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13001001": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13001002": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13001003": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13002000": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13003000": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13004000": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13004001": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13004002": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13004003": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13004004": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13004005": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "13004006": { "Aland_Transaction_Type":"Bar Lounge Disco","Aland_CO2":81.05 }
+  },
+  {
+     "19009000": { "Aland_Transaction_Type":"Book stores","Aland_CO2":26.98 }
+  },
+  {
+     "19048000": { "Aland_Transaction_Type":"Cigar stores and stands","Aland_CO2":46.27 }
+  },
+  {
+     "19012000": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012001": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012002": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012003": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012004": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012005": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012006": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012007": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "19012008": { "Aland_Transaction_Type":"Clothing","Aland_CO2":29.6 }
+  },
+  {
+     "22008000": { "Aland_Transaction_Type":"Cruise lines","Aland_CO2":434.79 }
+  },
+  {
+     "19018000": { "Aland_Transaction_Type":"Department stores","Aland_CO2":42.93 }
+  },
+  {
+     "14000000": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001000": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001001": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001002": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001003": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001004": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001005": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001006": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001007": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001008": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001009": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001010": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001011": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001012": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001013": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001014": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001015": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001016": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14001017": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002000": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002001": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002002": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002003": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002004": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002005": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002006": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002007": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002008": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002009": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002010": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002011": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002012": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002013": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002014": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002015": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002016": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002017": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002018": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002019": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "14002020": { "Aland_Transaction_Type":"Doctors","Aland_CO2":56.75 }
+  },
+  {
+     "19043000": { "Aland_Transaction_Type":"Drug store pharmacies","Aland_CO2":43.87 }
+  },
+  {
+     "19013000": { "Aland_Transaction_Type":"Electronic sales","Aland_CO2":25.22 }
+  },
+  {
+     "19013001": { "Aland_Transaction_Type":"Electronic sales","Aland_CO2":25.22 }
+  },
+  {
+     "19013002": { "Aland_Transaction_Type":"Electronic sales","Aland_CO2":25.22 }
+  },
+  {
+     "19013003": { "Aland_Transaction_Type":"Electronic sales","Aland_CO2":25.22 }
+  },
+  {
+     "19024000": { "Aland_Transaction_Type":"Florist","Aland_CO2":46.96 }
+  },
+  {
+     "22009000": { "Aland_Transaction_Type":"Fuel","Aland_CO2":1186 }
+  },
+  {
+     "17001014": { "Aland_Transaction_Type":"Gambling transactions","Aland_CO2":380.66 }
+  },
+  {
+     "19025000": { "Aland_Transaction_Type":"Grocery stores and supermarkets","Aland_CO2":49.02 }
+  },
+  {
+     "19025001": { "Aland_Transaction_Type":"Grocery stores and supermarkets","Aland_CO2":49.02 }
+  },
+  {
+     "19025002": { "Aland_Transaction_Type":"Grocery stores and supermarkets","Aland_CO2":49.02 }
+  },
+  {
+     "19025003": { "Aland_Transaction_Type":"Grocery stores and supermarkets","Aland_CO2":49.02 }
+  },
+  {
+     "19030000": { "Aland_Transaction_Type":"Hardware stores","Aland_CO2":35.66 }
+  },
+  {
+     "22012000": { "Aland_Transaction_Type":"Hotel","Aland_CO2":434.79 }
+  },
+  {
+     "22012001": { "Aland_Transaction_Type":"Hotel","Aland_CO2":434.79 }
+  },
+  {
+     "22012002": { "Aland_Transaction_Type":"Hotel","Aland_CO2":434.79 }
+  },
+  {
+     "22012003": { "Aland_Transaction_Type":"Hotel","Aland_CO2":434.79 }
+  },
+  {
+     "22012004": { "Aland_Transaction_Type":"Hotel","Aland_CO2":434.79 }
+  },
+  {
+     "22012005": { "Aland_Transaction_Type":"Hotel","Aland_CO2":434.79 }
+  },
+  {
+     "22012006": { "Aland_Transaction_Type":"Hotel","Aland_CO2":434.79 }
+  },
+  {
+     "19054000": { "Aland_Transaction_Type":"Lawn and garden supply stores","Aland_CO2":36.29 }
+  },
+  {
+     "17001009": { "Aland_Transaction_Type":"Motion Picture Theaters","Aland_CO2":27.38 }
+  },
+  {
+     "19025004": { "Aland_Transaction_Type":"Package stores beer wine liquor","Aland_CO2":80.61 }
+  },
+  {
+     "19042000": { "Aland_Transaction_Type":"Pet shops, pet food and supplies","Aland_CO2":63.34 }
+  },
+  {
+     "18049000": { "Aland_Transaction_Type":"Railroads, freight","Aland_CO2":335.63 }
+  },
+  {
+     "13005000": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005001": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005002": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005003": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005004": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005005": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005006": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005007": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005008": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005009": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005010": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005011": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005012": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005013": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005014": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005015": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005016": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005017": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005018": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005019": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005020": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005021": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005022": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005023": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005024": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005025": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005026": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005027": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005028": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005029": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005030": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005031": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005032": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005033": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005034": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005035": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005037": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005038": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005039": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005040": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005041": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005042": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005043": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005044": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005045": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005046": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005047": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005048": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005049": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005050": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005051": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005052": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005055": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005056": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005057": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005058": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "13005059": { "Aland_Transaction_Type":"Restaurants","Aland_CO2":79.64 }
+  },
+  {
+     "22006000": { "Aland_Transaction_Type":"Taxicabs","Aland_CO2":1186 }
+  },
+  {
+     "22006001": { "Aland_Transaction_Type":"Taxicabs","Aland_CO2":1186 }
+  },
+  {
+     "22011000": { "Aland_Transaction_Type":"Taxicabs","Aland_CO2":1186 }
+  },
+  {
+     "22016000": { "Aland_Transaction_Type":"Taxicabs","Aland_CO2":1186 }
+  }]
