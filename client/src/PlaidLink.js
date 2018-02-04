@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Button, Icon } from 'semantic-ui-react';
 import Script from 'react-load-script';
 
 export default class PlaidLinkButton extends Component {
@@ -35,7 +36,12 @@ export default class PlaidLinkButton extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.HandleClick}>Link</button>
+        <Button animated onClick={this.HandleClick}>
+          <Button.Content visible>Link</Button.Content>
+          <Button.Content hidden>
+            <Icon name="linkify" />
+          </Button.Content>
+        </Button>
         <Script
           url={this.state.plaidUrl}
           onLoad={this.HandlerOnLoad}

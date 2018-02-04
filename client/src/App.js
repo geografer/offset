@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import {Route, withRouter} from 'react-router-dom';
 import './App.css';
+import { Container, Grid, Menu } from 'semantic-ui-react';
 import * as crossfilter from 'crossfilter2';
 import { ChartContainer, PieChart, DataTable, NumberDisplay } from 'dc-react';
-import PlaidLink from './PlaidLink.js';
+import LinkButton from './LinkButton/LinkButton.js';
 import { APIRequest } from './helpers/requests.js';
+import FootprintDisplay from './Footprint/FootprintDisplay.js';
 
 class CrossfilterContext {
   constructor(data) {
@@ -46,48 +49,46 @@ class App extends Component {
     APIRequest('/api/get_transactions?access_token='+access_token, 'GET', { "access_token": access_token }, (response) => {
       this.setState({transactions: response.data});
       console.log(response);
+      this.props.history.push('/footprint');
     });
   }
 
   handleLinkSuccess = (public_token) => {
-    APIRequest('/api/get_access_token', 'POST', {"public_token": public_token}, (response) => {
+    this.props.getPlaidToken(public_token);
+    /*APIRequest('/api/get_access_token', 'POST', {"public_token": public_token}, (response) => {
       this.getTransactions(response.data.access_token, response.data.item_id);
-    });
+    }); */
   }
 
   render() {
     return (
-      <div className="App">
-        { this.state && this.state.transactions && <ChartContainer className="container" crossfilterContext={this.crossfilterContext}>
-          <h1>Offset</h1>
-          <div className="pieComposite">
-            <PieChart className="categoryChart" dimension={ctx => ctx.categoryDimension}
-              group={ctx => ctx.carbonPerCategory}
-              width={270} height={270}
-              innerRadius={110}
-            />
-            <NumberDisplay className="carbonTotal" dimension={ctx => ctx.transactionDim}
-              group={ctx => ctx.carbonTotal}
-              valueAccessor={function(d) { return d; }}
-            />
-          </div>
-          <DataTable className="transactionTable" dimension={ctx => ctx.transactionDimension}
-            group={d => d.id}
-            width={400} height={300}
-            showGroups={false}
-            columns={[
-              { label: "Transaction", format: (d) => { return d.name } },
-              { label: "Amount ($)", format: (d) => { return d.amount } },
-              { label: "Carbon (Lbs)", format: (d) => { return Math.round(d.carbon,1) } }
-            ]}
-          />
-        </ChartContainer>}
-        <PlaidLink
-          env="sandbox"
-          public_key="4e286959097f58418d2ca69556db7f"
-          onSuccess={this.handleLinkSuccess}
-        />
-        <div>{this.state.transactionsLoaded && <div>Three</div>}</div>
+      <div className="Page">
+        <Menu secondary style={{background: '#DDD', width: '100%'}}>
+          <Container>
+            <Menu.Item name="About">About</Menu.Item>
+            <Menu.Item name="Methodology">Methodology</Menu.Item>
+            <Menu.Item name="Support">Support</Menu.Item>
+          </Container>
+        </Menu>
+        <div className="App">
+          <Route exact path ="/footprint" component={FootprintDisplay} />
+          <Route exact path ="/" render={(props) => (
+            <Container>
+              <Grid divided="vertically">
+                <Grid.Row columns={2}>
+                  <Grid.Column textAlign={"left"}>
+                    <h1>CARBON<br />NO<br />MORE</h1>
+                  </Grid.Column>
+                  <Grid.Column textAlign={"left"} verticalAlign={"middle"}>
+                    <h3><p>We&#39;re trying to be the internet&#39;s best carbon calculator.</p></h3><p>We analyze your bank and credit card transactions and score you based on your actual spending habits. Link your info below using our secure API to get started! <span style={{ fontSize: '24pt', fontWeight: 'bold' }}>&#42;</span></p>
+                    <LinkButton />
+                    <p><span style={{ fontSize: '24pt', fontWeight: 'bold' }}>&#42;</span> We only recieve read access to basic account info and transaction info from your bank. Read more about security from our partner <a href="https://plaid.com/security/">here</a>.</p>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+            </Container>
+          )} />
+        </div>
       </div>
 
     );
