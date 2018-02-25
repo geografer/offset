@@ -37,7 +37,7 @@ export default class PlaidLinkButton extends Component {
     return (
       <div>
         <Button animated onClick={this.HandleClick}>
-          <Button.Content visible>Link</Button.Content>
+          <Button.Content visible>Get Started</Button.Content>
           <Button.Content hidden>
             <Icon name="linkify" />
           </Button.Content>

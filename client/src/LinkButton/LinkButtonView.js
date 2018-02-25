@@ -7,6 +7,7 @@ const public_token = "4e286959097f58418d2ca69556db7f";
 export default class LinkButtonView extends Component {
   constructor(props) {
     super(props);
+    console.log(props);
   }
 
   handleLinkSuccess = (public_token) => {
@@ -16,7 +17,7 @@ export default class LinkButtonView extends Component {
   render() {
     return (
       <PlaidLink
-        env={environment}
+        env={this.props.env || "sandbox"}
         public_key={public_token}
         onSuccess={this.handleLinkSuccess}
       />

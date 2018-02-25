@@ -37,7 +37,7 @@ export function getFootprint() {
     return APIRequest('/api/get_transactions?access_token='+access_token, 'GET', { "access_token": access_token }, (response) => {
       console.log(response);
 
-      if (response.status == "success") {
+      if (response.status === "success") {
         dispatch(loadFootprintSuccess(response.data));
       }
       else {
