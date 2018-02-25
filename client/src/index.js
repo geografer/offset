@@ -31,6 +31,12 @@ const rootReducer = combineReducers({
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
+const middleware = [
+  thunkMiddleware,
+  routerMiddleware(history),
+  process.env.REACT_APP_ENV === "development" && logger
+].filter(Boolean);
+
 const store = createStore(
   persistedReducer,
   {
@@ -45,9 +51,7 @@ const store = createStore(
     }
   },
   applyMiddleware(
-    logger,
-    thunkMiddleware,
-    routerMiddleware(history)
+    ...middleware
   )
 );
 
@@ -57,6 +61,7 @@ export class AppProvider extends Component {
   constructor() {
     super();
     this.state = { rehydrated: false }
+
   }
 
   componentWillMount() {

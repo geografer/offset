@@ -8,8 +8,8 @@ var moment = require('moment');
 var APP_PORT = process.env.PORT || 8000;
 var PLAID_CLIENT_ID = process.env.PLAID_CLIENT_ID,
     PLAID_SECRET = process.env.PLAID_SECRET,
-    PLAID_PUBLIC_KEY = process.env.PLAID_PUBLIC_KEY,
-    PLAID_ENV = process.env.PLAID_ENV || "sandbox";
+    PLAID_PUBLIC_KEY = process.env.REACT_APP_PLAID_PUBLIC_KEY,
+    PLAID_ENV = process.env.REACT_APP_PLAID_ENV || "sandbox";
 
 var ACCESS_TOKEN = null,
     PUBLIC_TOKEN = null,
@@ -129,7 +129,7 @@ app.get('/favicon.ico', function(req, res) {
 });
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static('client/build'));
+  app.use(express.static('client/build/'));
 }
 
 var server = app.listen(APP_PORT, function() {

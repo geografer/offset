@@ -23,15 +23,6 @@ class CrossfilterContext {
 }
 
 class HomePage extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state={env: null}
-
-    if (this.props.match.path === "/prod") {
-      this.state.env = "development";
-    }
-  }
 
   render() {
     return (
@@ -43,7 +34,7 @@ class HomePage extends Component {
             </Grid.Column>
             <Grid.Column textAlign={"left"} verticalAlign={"middle"}>
               <h3><p>Every choice affects global warming. We can help you understand yours.</p></h3><p>We&#39;re commited to giving you an accurate picture of your carbon emissions by analyzing your actual spending history.<span style={{ fontSize: '24pt', fontWeight: 'bold' }}>&#42;</span></p>
-              <LinkButton env={this.state.env} />
+              <LinkButton env={process.env.REACT_APP_PLAID_ENV} public_key={process.env.REACT_APP_PLAID_PUBLIC_KEY} />
               <p><span style={{ fontSize: '24pt', fontWeight: 'bold' }}>&#42;</span> We take your privacy extremely seriously. Read more about security from our partner <a href="https://plaid.com/security/">here</a>.</p>
             </Grid.Column>
           </Grid.Row>
@@ -102,7 +93,6 @@ class App extends Component {
         </Menu>
         <div className="App">
           <Route exact path ="/footprint" component={FootprintDisplay} />
-          <Route exact path ="/prod" component={HomePage} environment="production" />
           <Route exact path ="/" component={HomePage} />
         </div>
       </div>
